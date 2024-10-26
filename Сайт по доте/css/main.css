@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper {
+    background: linear-gradient(180deg, rgb(47, 77, 70), rgb(0, 0, 0));
+    width: 100%;
+}
+
+.container{
+   width: 1400px;
+   margin: 0 auto;
+}
+.header{
+    padding: 50px 0;
+}
+.logo{
+    text-transform: uppercase;
+    font-size:40px;
+    font-weight: 1000;
+}
+
+header nav{
+    float: right;
+    width: 50%;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{color: #fff;}
+
+header nav ul li:not(.btn) a:hover{
+    border-bottom: 3px solid #9a550c;
+}
+
+header nav ul li.btn a{
+    background: #9a550c;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+header nav ul li.btn a:hover{
+    background: #fd840b;
+}
+
+.hero{
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--info{
+    width: 530px;
+    padding-top: 70px;
+}
+
+.hero--info h2{
+    color: aqua;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hero--info h1{
+    color: aqua;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero--info p{
+    color: rgb(27, 133, 239);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero--info .btn{
+    background: rgb(209, 143, 20);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 0;
+    transition: all 0.5s ease;
+}
+
+.hero--info .btn:hover{
+    transform: scale(1.05) ;
+    background: rgb(236, 161, 23);
+}
+
+.hero img{
+    position: absolute;
+    top: 0;
+    right: 25%;
+}
+
+
+
